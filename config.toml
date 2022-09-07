@@ -1,0 +1,58 @@
+baseURL = "https://blog.bubbler.space/"
+languageCode = "ko-kr"
+title = "Bubbler's Bubblog"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+
+defaultContentLanguage = "ko"
+
+[languages.en]
+title = "Bubbler's Bubblog"
+
+[languages.en.menu]
+main = [
+    { name = "Archives", url = "archives" },
+    { name = "Search", url = "search" },
+]
+
+[languages.ko]
+title = "Bubbler의 버블로그"
+
+[languages.ko.menu]
+main = [
+    { name = "아카이브", url = "archives" },
+    { name = "검색", url = "search" },
+]
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+title = "Bubbler's Bubblog"
+description = "Bubbler's dev stories"
+keywords = ["Bubbler", "Rust", "PS", "Problem Solving"]
+author = "Bubbler"
+socialIcons = [
+    { name = "github", url = "https://github.com/Bubbler-4" },
+    { name = "stackoverflow", url = "https://stackoverflow.com/users/4595904/bubbler" }
+]
+defaultTheme = "auto"
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+ShowToc = true
+math = true
+comments = true
+
+[params.homeInfoParams]
+Title = "Welcome to Bubbler's Bubblog :)"
+
+[params.assets]
+disableHLJS = true
+
+[menu]
+main = [
+    { name = "Archives", url = "archives" },
+    { name = "Search", url = "search" },
+]

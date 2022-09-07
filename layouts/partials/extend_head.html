@@ -1,0 +1,4 @@
+{{ partial "helpers/codefont.html" . }}
+{{ if or .Params.math .Site.Params.math }}
+{{ partial "helpers/katex.html" . }}
+{{ end }}
