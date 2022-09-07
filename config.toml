@@ -1,4 +1,5 @@
-baseURL = "https://blog.bubbler.space/"
+# baseURL = "https://blog.bubbler.space/"
+baseURL = "https://bubbler-4.github.io/blog"
 languageCode = "ko-kr"
 title = "Bubbler's Bubblog"
 theme = "PaperMod"
