@@ -1,7 +1,8 @@
 ---
 title: "Test"
-date: 2022-09-07T02:07:21Z
+date: 2022-09-08T13:40:54+09:00
 draft: true
+tags: ["Test", "Draft"]
 ---
 
 # Test 1

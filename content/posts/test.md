@@ -1,6 +1,6 @@
 ---
 title: "테스트"
-date: 2022-09-08T04:19:18Z
+date: 2022-09-08T13:40:54+09:00
 draft: true
 tags: ["Test", "Draft"]
 ---
