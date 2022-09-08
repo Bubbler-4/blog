@@ -7,6 +7,6 @@ RUN apt-get update -y -q \
   && DEBIAN_FRONTEND=noninteractive apt-get install -y -q --no-install-recommends ./hugo.deb
 
 RUN rm -rf /etc/localtime \
-  && ln -s /usr/share/zoneinfo/Etc/GMT+9 /etc/localtime
+  && ln -s /usr/share/zoneinfo/Etc/GMT-9 /etc/localtime
 
 USER gitpod
