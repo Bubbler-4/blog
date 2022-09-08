@@ -13,8 +13,9 @@ title = "Bubbler's Bubblog"
 
 [languages.en.menu]
 main = [
-    { name = "Archives", url = "archives" },
-    { name = "Search", url = "search" },
+    { name = "Archives", url = "archives", weight = 1 },
+    { name = "Search", url = "search", weight = 2 },
+    { name = "Tags", url = "tags", weight = 3 },
 ]
 
 [languages.ko]
@@ -22,8 +23,9 @@ title = "Bubbler의 버블로그"
 
 [languages.ko.menu]
 main = [
-    { name = "아카이브", url = "archives" },
-    { name = "검색", url = "search" },
+    { name = "아카이브", url = "archives", weight = 1 },
+    { name = "검색", url = "search", weight = 2 },
+    { name = "태그", url = "tags", weight = 3 },
 ]
 
 [outputs]
