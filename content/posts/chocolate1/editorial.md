@@ -1,7 +1,7 @@
 ---
 title: "제1회 초콜릿컵 에디토리얼"
-date: 2022-09-14T14:18:43+09:00
-draft: true
+date: 2022-10-15T21:14:42+09:00
+draft: false
 tags: ["PS", "Editorial", "ChocolateCup"]
 ---
 
