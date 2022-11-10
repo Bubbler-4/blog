@@ -29,5 +29,8 @@
 				"mhutchie.git-graph"
 			]
 		}
+	},
+	"hostRequirements": {
+		"cpus": 2
 	}
 }
