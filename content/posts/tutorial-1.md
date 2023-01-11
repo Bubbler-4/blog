@@ -158,6 +158,23 @@ use std::io::{stdin, Read};
 따라서 `print!(buffer)`와 같은 코드는 컴파일이 되지 않고, `buffer`가 들어갈 자리를 나타내는 포맷 문자열 `"{}"`을 쓰고 나서
 포맷 인자로 `buffer`를 넘겨줘야 합니다.
 
+### Rust 1.65+ 에서의 입력 방법
+
+기존에는 `String` 버퍼를 먼저 만들고 그 버퍼를 채워야 해서 두 줄의 코드가 필요했는데,
+Rust 버전 1.65부터는 조금 더 간편하게 입력을 받을 수 있습니다.
+`Read` trait의 메소드 `read_to_string()`과 다르게, `std::io::read_to_string` 함수는 `Read`인 오브젝트를 받아서
+`String` 오브젝트를 새로 만들어 반환해 줍니다.
+
+```rust
+use std::io::{stdin, read_to_string};
+fn main() {
+    let input = read_to_string(stdin()).unwrap();
+    print!("{}", input);
+}
+```
+
+2023년 1월 기준 BOJ와 Codeforces에서 사용 가능합니다.
+
 ## 입력 파싱하기, 정수 타입, 사칙연산
 
 이제 입력을 가지고 뭔가 계산하려면 문자열을 수로 변환하는 과정을 거쳐야 합니다.
