@@ -23,7 +23,9 @@ Rust를 설치하고 PS용 project를 하나 생성해서 사용하는 것이 �
 
 ## 출력하기
 
-### [2557. Hello World!](https://boj.kr/2557)
+### 2557. Hello World!
+
+[문제 링크](https://boj.kr/2557)
 
 클래식한 입문 문제부터 시작해 봅시다.
 
@@ -51,7 +53,9 @@ fn main() {
 `println`은 출력 끝에 줄바꿈이 추가되고, `print`는 추가되지 않습니다.
 BOJ는 출력 끝의 빈 칸이나 줄바꿈은 무시하고 채점하므로, `print`와 `println` 둘 중 어느 것을 써도 정답 처리됩니다.
 
-### [25083. 새싹](https://boj.kr/25083)
+### 25083. 새싹
+
+[문제 링크](https://boj.kr/25083)
 
 조금(?) 더 복잡한 문자열을 출력하는 문제입니다.
 
@@ -103,7 +107,9 @@ C의 `scanf`, C++의 `cin`, Python의 `input`에 해당하는 기능이 러스�
 
 필요한 기초 기능과 관련 문법에 대한 설명은 Rust Book의 2장([한글](https://rinthel.github.io/rust-lang-book-ko/ch02-00-guessing-game-tutorial.html), [영어](https://doc.rust-lang.org/book/ch02-00-guessing-game-tutorial.html))의 앞부분을 참고하면 도움이 될 것 같습니다.
 
-### [11718. 그대로 출력하기](https://boj.kr/11718)
+### 11718. 그대로 출력하기
+
+[문제 링크](https://boj.kr/11718)
 
 문제 순서를 바꿔서, 입력을 받아서 아무것도 하지 않아도 되는 문제를 먼저 가져와 봤습니다.
 
@@ -207,7 +213,9 @@ C나 C++의 경우 `int`나 `long` 같은 타입의 크기는 환경에 영향�
 예를 들어 `a: i32`와 `b: i64`를 서로 더하려면 `a as i64 + b`처럼 명시적 형변환을 해 주어야 합니다.
 (예외적으로 bitshift 연산은 오른쪽에 아무 정수 타입이 오는 것이 허용됩니다.)
 
-### [1000. A+B](https://boj.kr/1000)
+### 1000. A+B
+
+[문제 링크](https://boj.kr/1000)
 
 이제 본격적으로 파싱 후 연산을 해 봅시다.
 
