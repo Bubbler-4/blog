@@ -3,6 +3,7 @@ baseURL = "https://blog.bubbler.one/"
 languageCode = "ko-kr"
 title = "Bubbler's Bubblog"
 theme = "PaperMod"
+googleAnalytics = "G-7RJCHF5L4Z"
 
 enableRobotsTXT = true
 
