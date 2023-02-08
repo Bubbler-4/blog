@@ -8,7 +8,7 @@ tags: ["Rust", "PS", "Tutorial"]
 [solved.ac](https://solved.ac)에서는 프로그래밍 언어 입문에 좋은 [새싹 문제 리스트](https://solved.ac/problems/sprout)를 제공합니다.
 이 시리즈에서는 Rust를 가지고 이 문제들을 하나씩 풀어 보겠습니다.
 
-<!-- more -->
+<!--more-->
 
 참고: 이 시리즈를 포함한 모든 Rust 관련 포스트는 2021 edition을 기준으로 합니다. BOJ 제출 언어는 `Rust 2021`입니다.
 
