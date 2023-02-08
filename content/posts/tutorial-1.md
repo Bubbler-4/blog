@@ -3,6 +3,7 @@ title: "Rust로 새싹문제를 정복해보자 - 1"
 date: 2022-09-08T22:54:21+09:00
 draft: false
 tags: ["Rust", "PS", "Tutorial"]
+description: "solved.ac에서는 프로그래밍 언어 입문에 좋은 새싹 문제 리스트를 제공합니다. 이 시리즈에서는 Rust를 가지고 이 문제들을 하나씩 풀어 보겠습니다."
 ---
 
 [solved.ac](https://solved.ac)에서는 프로그래밍 언어 입문에 좋은 [새싹 문제 리스트](https://solved.ac/problems/sprout)를 제공합니다.
