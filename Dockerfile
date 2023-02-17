@@ -10,3 +10,4 @@ RUN rm -rf /etc/localtime \
   && ln -s /usr/share/zoneinfo/Etc/GMT-9 /etc/localtime
 
 USER gitpod
+RUN echo 'alias gphugo="hugo server -b $(gp url 1313) --appendPort=false"' >> ~/.bashrc
