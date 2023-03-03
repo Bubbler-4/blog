@@ -1,7 +1,7 @@
 ---
 title: "Cargo-OJ: What it takes to be a PSer and a dev at once"
-date: 2023-02-27T16:41:11+09:00
-draft: true
+date: 2023-03-03T09:26:04+09:00
+draft: false
 tags: ["PS", "Dev", "Rust", "Cargo-OJ"]
 ---
 
@@ -336,8 +336,9 @@ The complete code so far, cleaned-up and commented, can be found [here](https://
 ## Future work
 
 * Loading files
+    * Allow `mod.rs`-style modules.
     * Copy file-level attributes on submodules to parent `mod` node as well.
-    * Regular comments are stripped by code -> AST -> code round trip. Check if doc-comments do survive the round trip.
+    * Check if doc-comments do survive the round trip.
 * Dead code elimination
     * What to do with macro decls/invocations?
     * Filter `unused_imports` too.
@@ -345,8 +346,6 @@ The complete code so far, cleaned-up and commented, can be found [here](https://
 * Bruteforcing
     * Check if a [current-thread scheduler](https://docs.rs/tokio/latest/tokio/runtime/index.html#current-thread-scheduler) works better.
 * Publishing the crate
-    * Switch back to AST loader. (Current code uses an ad-hoc regex-based loader.)
-    * Allow the `tmp` directory to be configured.
-    * Allow `mod.rs`-style modules.
+    * Allow the `tmp` directory to be configured. Use [`directories`](https://crates.io/crates/directories) to store such configuration.
 
 If you have any questions or suggestions about the code, please leave a comment below.
