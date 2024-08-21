@@ -9,8 +9,10 @@ enableRobotsTXT = true
 
 defaultContentLanguage = "ko"
 
-[languages.en.params]
+[languages.en]
 title = "Bubbler's Bubblog"
+
+[languages.en.params]
 dateFormat = "Jan 2, 2006"
 
 [languages.en.menu]
@@ -20,8 +22,10 @@ main = [
     { name = "Search", url = "search", weight = 3 },
 ]
 
-[languages.ko.params]
+[languages.ko]
 title = "Bubbler의 버블로그"
+
+[languages.ko.params]
 dateFormat = "2006년 1월 2일"
 
 [languages.ko.menu]
