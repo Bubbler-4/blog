@@ -8,3 +8,5 @@ RUN apt-get update -y -q \
 
 RUN rm -rf /etc/localtime \
   && ln -s /usr/share/zoneinfo/Etc/GMT-9 /etc/localtime
+
+USER vscode
