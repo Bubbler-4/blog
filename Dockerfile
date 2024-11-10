@@ -1,4 +1,4 @@
-FROM gitpod/workspace-full:latest
+FROM mcr.microsoft.com/devcontainers/base:ubuntu
 
 USER root
 RUN apt-get update -y -q \
@@ -8,6 +8,3 @@ RUN apt-get update -y -q \
 
 RUN rm -rf /etc/localtime \
   && ln -s /usr/share/zoneinfo/Etc/GMT-9 /etc/localtime
-
-USER gitpod
-RUN echo 'alias gphugo="hugo server -b $(gp url 1313) --appendPort=false -D"' >> ~/.bashrc
