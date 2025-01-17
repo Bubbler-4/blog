@@ -1,4 +1,4 @@
-baseURL = "https://blog.bubbler.one/"
+baseURL = "https://blog.bubbler.blue/"
 # baseURL = "https://bubbler-4.github.io/blog"
 languageCode = "ko-kr"
 title = "Bubbler's Bubblog"
