@@ -12,8 +12,12 @@
     "customizations": {
         "vscode": {
             "extensions": [
-                "mhutchie.git-graph"
-            ]
+                "mhutchie.git-graph",
+                "jsynowiec.vscode-insertdatestring"
+            ],
+            "settings": {
+                "insertDateString.format": "YYYY-MM-DDThh:mm:ssZZZ"
+            }
         }
     }
 
